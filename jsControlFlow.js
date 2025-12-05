@@ -60,7 +60,7 @@ while (number < 3) {
 // Output: 0 1 2
 
 // Lecture 3 p41 ==> while (i < 3) changed while (number < 3)
-let number = 0;
+// let number = 0;
 do {
     console.log(number);
     number++;
@@ -86,3 +86,15 @@ function cookAnoodle () {
 }
 cookAnoodle();
 // 
+
+// FizzBuzz Function - write fizzBUzz(n) that return "Fizz" if  divisible by 3
+// "Buzz" if by 5, "FizzBuzz" if by both numbers 
+var number = 5;
+function fizzBuzz(number) {
+  if (number % 15 === 0) return "FizzBuzz";
+   if (number % 5 === 0) return "Buzz";
+    if (number % 3 === 0) return "Fizz";
+    return number;
+}
+
+console.log(fizzBuzz(number));
