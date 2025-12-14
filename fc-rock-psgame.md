@@ -15,6 +15,6 @@ graph TD
 
 %% Tambahkan Style di sini
     style A fill:#90EE90,stroke:#3C883C,stroke-width:2px; %% Hijau muda
-    style J fill:#FFB6C1,stroke:#C0392B,stroke-width:2px; %% Merah mud
+    style J fill:#FFB6C1,stroke:#C0392B,stroke-width:2px; %% Merah muda
 
 ```
